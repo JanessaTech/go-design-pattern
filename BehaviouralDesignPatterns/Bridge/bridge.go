@@ -42,6 +42,7 @@ func callDraw(shape shape) {
 	shape.draw()
 }
 
+// use this pattern when there are more than independent factors
 func Main() {
 	redColor := red{}
 	buleColor := blue{}
