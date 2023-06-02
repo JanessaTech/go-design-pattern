@@ -1,7 +1,7 @@
 package main
 
 import (
-	proxy "hi-supergirl/go-design-pattern/StructuralDesignPatterns/Proxy"
+	chainresponsibility "hi-supergirl/go-design-pattern/BehaviouralDesignPatterns/Chain-Responsibility"
 )
 
 func main() {
@@ -14,7 +14,8 @@ func main() {
 	//composite.Main()
 	//flyweight.Main()
 	//decorator.Main()
-	proxy.Main()
+	//proxy.Main()
 
 	//command.Main()
+	chainresponsibility.Main()
 }
