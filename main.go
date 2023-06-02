@@ -1,7 +1,7 @@
 package main
 
 import (
-	bridge "hi-supergirl/go-design-pattern/BehaviouralDesignPatterns/Bridge"
+	composite "hi-supergirl/go-design-pattern/BehaviouralDesignPatterns/Composite"
 )
 
 func main() {
@@ -9,5 +9,6 @@ func main() {
 	//singleton.Main()
 	//prototype.Main()
 	//adapter.Main()
-	bridge.Main()
+	//bridge.Main()
+	composite.Main()
 }
