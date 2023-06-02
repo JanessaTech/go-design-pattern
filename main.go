@@ -1,7 +1,7 @@
 package main
 
 import (
-	composite "hi-supergirl/go-design-pattern/BehaviouralDesignPatterns/Composite"
+	flyweight "hi-supergirl/go-design-pattern/BehaviouralDesignPatterns/Flyweight"
 )
 
 func main() {
@@ -10,5 +10,6 @@ func main() {
 	//prototype.Main()
 	//adapter.Main()
 	//bridge.Main()
-	composite.Main()
+	//composite.Main()
+	flyweight.Main()
 }
