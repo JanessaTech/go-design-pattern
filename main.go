@@ -1,12 +1,13 @@
 package main
 
 import (
-	adapter "hi-supergirl/go-design-pattern/BehaviouralDesignPatterns/Adapter"
+	bridge "hi-supergirl/go-design-pattern/BehaviouralDesignPatterns/Bridge"
 )
 
 func main() {
 	//factory.Main()
 	//singleton.Main()
 	//prototype.Main()
-	adapter.Main()
+	//adapter.Main()
+	bridge.Main()
 }
