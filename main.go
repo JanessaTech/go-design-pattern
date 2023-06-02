@@ -1,11 +1,12 @@
 package main
 
 import (
-	prototype "hi-supergirl/go-design-pattern/CreationalDesignPatterns/Prototype"
+	adapter "hi-supergirl/go-design-pattern/BehaviouralDesignPatterns/Adapter"
 )
 
 func main() {
 	//factory.Main()
 	//singleton.Main()
-	prototype.Main()
+	//prototype.Main()
+	adapter.Main()
 }
