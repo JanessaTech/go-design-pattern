@@ -1,6 +1,6 @@
 package factory
 
-type Animal interface {
-	Saying()
-	SetName(name string)
+type animal interface {
+	saying()
+	setName(name string)
 }

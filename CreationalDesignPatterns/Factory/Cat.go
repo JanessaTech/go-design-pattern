@@ -2,19 +2,19 @@ package factory
 
 import "fmt"
 
-type Cat struct {
+type cat struct {
 	name string
 }
 
-func (c *Cat) SetName(name string) {
+func (c *cat) setName(name string) {
 	c.name = name
 }
 
-func (c *Cat) Saying() {
+func (c *cat) saying() {
 	fmt.Println("my name is ", c.name, ", I am a cat")
 }
 
-func NewCat(name string) Animal {
-	cat := Cat{name: name}
+func NewCat(name string) animal {
+	cat := cat{name: name}
 	return &cat
 }

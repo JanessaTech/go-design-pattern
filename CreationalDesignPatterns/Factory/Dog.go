@@ -2,19 +2,19 @@ package factory
 
 import "fmt"
 
-type Dog struct {
+type dog struct {
 	name string
 }
 
-func (d *Dog) SetName(name string) {
+func (d *dog) setName(name string) {
 	d.name = name
 }
 
-func (d *Dog) Saying() {
+func (d *dog) saying() {
 	fmt.Println("my name is ", d.name, ", I am a dog")
 }
 
-func NewGog(name string) Animal {
-	dog := Dog{name: name}
+func NewGog(name string) animal {
+	dog := dog{name: name}
 	return &dog
 }
