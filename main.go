@@ -1,7 +1,7 @@
 package main
 
 import (
-	templatemethod "hi-supergirl/go-design-pattern/BehaviouralDesignPatterns/Template-Method"
+	observer "hi-supergirl/go-design-pattern/BehaviouralDesignPatterns/Observer"
 )
 
 func main() {
@@ -18,5 +18,7 @@ func main() {
 
 	//command.Main()
 	//chainresponsibility.Main()
-	templatemethod.Main()
+	//templatemethod.Main()
+	//strategy.Main()
+	observer.Main()
 }
