@@ -1,7 +1,7 @@
 package main
 
 import (
-	chainresponsibility "hi-supergirl/go-design-pattern/BehaviouralDesignPatterns/Chain-Responsibility"
+	templatemethod "hi-supergirl/go-design-pattern/BehaviouralDesignPatterns/Template-Method"
 )
 
 func main() {
@@ -17,5 +17,6 @@ func main() {
 	//proxy.Main()
 
 	//command.Main()
-	chainresponsibility.Main()
+	//chainresponsibility.Main()
+	templatemethod.Main()
 }
